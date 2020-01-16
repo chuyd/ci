@@ -22,7 +22,8 @@ pipeline {
                     completedStatus('ERROR', 'There was an error in the infrastructure, please contact...')
                 }
             }
-        }
+       }
+  }
   stages {
     stage('') {
       steps {
