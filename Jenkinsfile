@@ -1,7 +1,7 @@
 pipeline {
   agent any
   stages {
-    stage('') {
+    stage('s') {
       steps {
         echo 'Starting CI'
       }
